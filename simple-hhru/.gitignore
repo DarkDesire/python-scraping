@@ -8,12 +8,11 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-.metals/
-.vscode/
 build/
 develop-eggs/
 dist/
 downloads/
+target/
 eggs/
 .eggs/
 lib/
@@ -129,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+target/
+.vscode/
+.metals/metals.h2.db
