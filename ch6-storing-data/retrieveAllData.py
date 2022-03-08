@@ -6,7 +6,7 @@ from urllib.request import urlretrieve
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-downloadDirectory = 'downloaded'
+downloadDirectory = 'downloads'
 baseUrl = 'https://pythonscraping.com'
 
 def getAbsoluteURL(baseUrl, source):
